@@ -1,0 +1,6 @@
+# github.com/Aman17101/cc/nonPrimitiveDatatype
+.\main.go:20:7: no new variables on left side of :=
+.\main.go:21:11: invalid field name adi.name in struct literal
+.\main.go:22:13: invalid field name adi.rollno in struct literal
+.\main.go:23:10: invalid field name adi.age in struct literal
+.\main.go:26:32: undefined: adi
