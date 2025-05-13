@@ -11,7 +11,7 @@ type Student struct {
 	StudentAddress Address
 }
 type Address struct {
-		lane1 string
+		//lane1 string
 		dist string
 		post string
 		vill string
@@ -79,4 +79,5 @@ func main() {
 fmt.Println("team address is ",aman)
  fmt.Println("hello team ....nick struct", nick)
 	
+ 
 }
