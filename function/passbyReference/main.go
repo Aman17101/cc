@@ -14,7 +14,8 @@ func main() {
 }
 
 func addbyone(a *int, b int) {
-	*a = *a + 1
+	//db connection break
+	*a = *a + 1 //reconnect
 	b = b + 1
 
 }
