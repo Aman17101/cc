@@ -1,0 +1,20 @@
+package main
+
+import "fmt"
+
+func main() {
+	f := 5
+	// var i *int
+	// i = &f
+	g := 5
+
+	addbyone(&f, g)
+
+	fmt.Println("f=",f,"g=",g)
+}
+
+func addbyone(a *int, b int) {
+	*a = *a + 1
+	b = b + 1
+
+}
